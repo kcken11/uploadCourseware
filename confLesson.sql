@@ -1,0 +1,9 @@
+update conf_lesson set lesson_url='aliyun/lesson/5/114/1/1.jpg' where lesson_id=399 ;
+update conf_lesson set lesson_url='aliyun/lesson/5/115/1/1.jpg' where lesson_id=400 ;
+update conf_lesson set lesson_url='aliyun/lesson/7/31/1/1.jpg' where lesson_id=556 ;
+update conf_lesson set lesson_url='aliyun/lesson/4/20/1/1.jpg' where lesson_id=181 ;
+update conf_lesson set lesson_url='aliyun/lesson/4/31/1/1.jpg' where lesson_id=192 ;
+update conf_lesson set lesson_url='aliyun/lesson/4/39/1/1.jpg' where lesson_id=200 ;
+update conf_lesson set lesson_url='aliyun/lesson/4/40/1/1.jpg' where lesson_id=201 ;
+update conf_lesson set lesson_url='aliyun/lesson/4/57/1/1.jpg' where lesson_id=218 ;
+update conf_lesson set lesson_url='aliyun/lesson/4/61/1/1.jpg' where lesson_id=222 ;

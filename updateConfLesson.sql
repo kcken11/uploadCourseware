@@ -1,0 +1,9 @@
+update conf_lesson set original_lesson_url='aliyun/ppt/5/114/1/G1-U6-W5-NO2.pdf' where lesson_id= 399 ;
+update conf_lesson set original_lesson_url='aliyun/ppt/5/115/1/G1-U6-W5-NO3.pdf' where lesson_id= 400 ;
+update conf_lesson set original_lesson_url='aliyun/ppt/7/31/1/G3-U2-W3-NO4.pdf' where lesson_id= 556 ;
+update conf_lesson set original_lesson_url='aliyun/ppt/4/20/1/GK-U2-W2-NO4.pdf' where lesson_id= 181 ;
+update conf_lesson set original_lesson_url='aliyun/ppt/4/31/1/GK-U3-W2-NO3.pdf' where lesson_id= 192 ;
+update conf_lesson set original_lesson_url='aliyun/ppt/4/39/1/GK-U4-W1-NO3.pdf' where lesson_id= 200 ;
+update conf_lesson set original_lesson_url='aliyun/ppt/4/40/1/GK-U4-W1-NO4.pdf' where lesson_id= 201 ;
+update conf_lesson set original_lesson_url='aliyun/ppt/4/57/1/GK-U5-W3-NO1.pdf' where lesson_id= 218 ;
+update conf_lesson set original_lesson_url='aliyun/ppt/4/61/1/GK-U6-W1-NO1.pdf' where lesson_id= 222 ;

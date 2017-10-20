@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77015482-e6ab-4b82-94ad-7a6f65ce3a90" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uploadCourseware.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/countFiles.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploadPPT.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploadService.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aliyunConfig.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cc.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploadVideoFiles.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainFrame.py" afterPath="$PROJECT_DIR$/mainFrame.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploadService.py" afterPath="$PROJECT_DIR$/uploadService.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,17 +13,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/uploadCourseware$mainFrame.coverage" NAME="mainFrame Coverage Results" MODIFIED="1508136158312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/uploadCourseware$mainFrame.coverage" NAME="mainFrame Coverage Results" MODIFIED="1508327133419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/uploadCourseware$uploadPPT.coverage" NAME="uploadPPT Coverage Results" MODIFIED="1508126632817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mainFrame.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mainFrame.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainFrame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+            <state relative-caret-position="-383">
+              <caret line="41" column="50" lean-forward="false" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
               <folding>
                 <element signature="e#47#56#0" expanded="true" />
               </folding>
@@ -43,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+              <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -77,15 +65,25 @@
         <entry file="file://$PROJECT_DIR$/uploadService.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="97">
-              <caret line="113" column="20" lean-forward="false" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="20" />
+              <caret line="86" column="37" lean-forward="true" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
               <folding>
                 <element signature="e#23#34#0" expanded="true" />
-                <marker date="1508135135465" expanded="true" signature="513:608" ph="select lesso... conf_lesson" />
-                <marker date="1508135135465" expanded="true" signature="2177:2232" ph="update conf_... " />
-                <marker date="1508135135465" expanded="true" signature="2350:2463" ph="insert into conf_courseware... " />
-                <marker date="1508135135465" expanded="true" signature="2624:2669" ph="delete from " />
-                <marker date="1508135135465" expanded="true" signature="3844:3909" ph="update conf_... " />
+                <marker date="1508327124975" expanded="true" signature="513:608" ph="select lesso... conf_lesson" />
+                <marker date="1508327124975" expanded="true" signature="2183:2238" ph="update conf_... " />
+                <marker date="1508327124975" expanded="true" signature="2356:2469" ph="insert into conf_courseware... " />
+                <marker date="1508327124975" expanded="true" signature="2630:2675" ph="delete from " />
+                <marker date="1508327124975" expanded="true" signature="3854:3919" ph="update conf_... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uploadVideoFiles.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Roaming/Foxmail7/Temp-11252-20171018090307/Attach/uploadVideoFiles.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,9 +111,9 @@
       <list>
         <option value="$PROJECT_DIR$/uploadPPT.py" />
         <option value="$PROJECT_DIR$/uploadImg.py" />
-        <option value="$PROJECT_DIR$/uploadService.py" />
         <option value="$PROJECT_DIR$/mainFrame.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/uploadService.py" />
       </list>
     </option>
   </component>
@@ -410,15 +408,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="1" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26203808" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26203808" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -508,21 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploadService.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="113" column="20" lean-forward="false" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="20" />
-          <folding>
-            <element signature="e#23#34#0" expanded="true" />
-            <marker date="1508135135465" expanded="true" signature="513:608" ph="select lesso... conf_lesson" />
-            <marker date="1508135135465" expanded="true" signature="2177:2232" ph="update conf_... " />
-            <marker date="1508135135465" expanded="true" signature="2350:2463" ph="insert into conf_courseware... " />
-            <marker date="1508135135465" expanded="true" signature="2624:2669" ph="delete from " />
-            <marker date="1508135135465" expanded="true" signature="3844:3909" ph="update conf_... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/wx/core.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -555,21 +537,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainFrame.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        <state relative-caret-position="15">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Foxmail7/Temp-11252-20171018090307/Attach/uploadVideoFiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploadService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="86" column="37" lean-forward="true" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
           <folding>
-            <element signature="e#47#56#0" expanded="true" />
+            <element signature="e#23#34#0" expanded="true" />
+            <marker date="1508327124975" expanded="true" signature="513:608" ph="select lesso... conf_lesson" />
+            <marker date="1508327124975" expanded="true" signature="2183:2238" ph="update conf_... " />
+            <marker date="1508327124975" expanded="true" signature="2356:2469" ph="insert into conf_courseware... " />
+            <marker date="1508327124975" expanded="true" signature="2630:2675" ph="delete from " />
+            <marker date="1508327124975" expanded="true" signature="3854:3919" ph="update conf_... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/mainFrame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="-383">
+          <caret line="41" column="50" lean-forward="false" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+          <folding>
+            <element signature="e#47#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

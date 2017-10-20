@@ -64,7 +64,7 @@ def uploadImg(rootdir,process,total):
                     continue
                 key = "aliyun/lesson/" + str(lesson[1]) + "/" + str(lesson[2]) + "/1/" + grank+".jpg"
                 print key
-                uploadFile(key, file)
+                #uploadFile(key, file,None)
                 if grank == '1':
                     confLessonSql = "update conf_lesson set lesson_url='%s' where lesson_id=%s " % (key, lesson[0])
                     confLesson.write(confLessonSql + ";\n")
@@ -102,9 +102,9 @@ def uploadPPT(rootdir,process,total):
                     print  "not exist %s " % filepath
                     continue
                 file = open(filepath, "rb")
-                key = "aliyun/ppt/" + str(lesson[1]) + "/" + str(lesson[2]) + "/1/" + file.name
+                key = "aliyun/ppt/" + str(lesson[1]) + "/" + str(lesson[2]) + "/1/" + filename
                 #print key
-                uploadFile(key, file)
+                uploadFile(key, file,None)
                 sql2 = "update conf_lesson set original_lesson_url='%s' where lesson_id= %d " % (key,lesson[0])
                # print sql2
                 updateConfLesson.write(sql2 + ";\n")
@@ -118,11 +118,11 @@ def uploadSingleFile(key,filePath,uploadCallback):
     uploadFile(key,file,uploadCallback)
 
 def initBucket():
-    accessKeyId = "6dEKHef6WIaqELi5"
-    accessKeySecret = "LE3QTczCIAY01SR7BhiNoFSxEn9zkm"
+    accessKeyId = "LTAIzMumvziQwhk6"
+    accessKeySecret = "drWYRiZM19vAL254kkwkmBgVseM8iR"
     auth = oss2.Auth(accessKeyId, accessKeySecret)
     endpoint = 'http://oss-cn-hangzhou.aliyuncs.com'  # 假设Bucket处于杭州区域
-    this.bucket = oss2.Bucket(auth, endpoint, 'yanxx')
+    this.bucket = oss2.Bucket(auth, endpoint, 'kkworld')
 
 
 def initConnetDB():
